@@ -2,6 +2,9 @@ package dynamic_programming;
 
 /**
  * https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+ * https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/
+ * In the minimum partition get till sum/2 and see the largest value of j for last value of i for which
+ * the value in res[n-1][j] is true
  */
 
 import java.util.*;
